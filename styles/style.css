@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'RR';
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* 
+
+300 - Light
+400 - Regular
+500 - Medium
+600 - SemiBold
+700 - Bold
+800 - Black
+
+*/
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background: #FFFFFF;
+}
+
+.header-nav-list {
+    display: flex;
+}
+
+.header-nav-link {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 19px;
+    padding: 30px 15px;
+    display: block;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+
+.header-nav-link:hover {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.header-form {
+    max-width: 290px;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.header-form-text {
+    border-radius: 10px 0 0 10px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    line-height: 14px;
+    padding: 8px 12px;
+    width: 100%;
+}
+
+.header-form-btn {
+    border-radius: 0px 10px 10px 0px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    line-height: 14px;
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+}
+
+.header-content {
+    height: 780px;
+    background: url(../images/bg.jpg) no-repeat center top /cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content-title {
+    color: rgb(255, 255, 255);
+    font-family: 'RSB';
+    font-size: 59px;
+    line-height: 70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+} 
+
+.header-content-text {
+    color: rgb(255, 255, 255);
+    font-family: 'RL';
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+}
+
+.main-clothes {
+    display: flex;
+}
+
+.main-clothes-item {
+    width: 25%;
+    background: rgb(24, 29, 40);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    transition: background 300ms;
+}
+
+.main-clothes-item:hover {
+    background: rgb(107, 75, 107);
+    cursor: pointer;
+}
+
+.main-clothes-title {
+    color: rgb(255, 255, 255);
+    font-family: 'RSB';
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 24px;
+}
+
+.main-gear {
+    padding: 40px 0;
+}
+
+.title {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'RSB';
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.main-gear-text {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.main-gear-text:first-of-type {
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+.main-tiro-img {
+    width: 100%;
+}
+
+.main-shoe-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.main-shoe-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.main-shoe {
+    padding: 40px 0;
+}
+
+.footer {
+    background: rgb(24, 29, 40);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-link {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 24px;
+}
+
